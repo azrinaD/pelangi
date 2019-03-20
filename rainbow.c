@@ -38,7 +38,20 @@ int main(int argc, char const *argv[])
         return -1; 
     } 
     send(sock , hello , strlen(hello) , 0 ); 
-    printf("\n\nHello everyone! Nice to meet you.\n "); 
+    printf("\n\nHello everyone! Nice to meet you.\n ");
+    printf("  ________________\n ");
+    printf("  |   |       |   |\n ");
+    printf("  |   |__   __|   |\n ");
+    printf("  |__ ((o| |o)) __|\n ");
+    printf("  |      | |      |\n ");
+    printf("  |_     |_|     _|\n ");
+    printf("  | __         __ |\n ");
+    printf("  |      ___      |\n ");
+    printf("  |    |_| |_|    |\n ");
+    printf("  |_______________|\n ");
+    printf("       _|____|_     \n ");
+    printf(" ____|_________|____\n ");
+    printf("  |                  |\n ");
     valread = read( sock , buffer, 1024); 
     printf("%s\n",buffer ); 
     return 0; 
